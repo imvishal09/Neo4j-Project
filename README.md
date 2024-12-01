@@ -21,6 +21,10 @@ Below is a visualization of the graph database schema. It highlights the `Airpor
 3. **Query Development**: Designed workloads to analyze international vs. domestic flights, airline operations and route connections.
 4. **Performance Optimization**: Created indexes for faster query execution.
 
+## Example 1 of the project:
+This Cypher query retrieves three international flight connections from the Neo4j database, linking departure and arrival airports in different countries with their corresponding airplanes based on IATA equipment codes.
+
+![Example 1:](https://github.com/imvishal09/Neo4j-Project/blob/main/Example%201.jpg)
 
 ## Disclaimer
 This project is for academic purposes and demonstrates tools and techniques for graph-based data analysis. Data used in this project is a simplified representation and not intended for real-world use.
