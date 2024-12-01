@@ -1,6 +1,4 @@
-
-
-# Neo4j Airport Network Analysis
+# Neo4j Network Analysis
 
 This project showcases the use of Neo4j for graph-based analysis of an airport network. It involves designing a schema, importing data and executing workloads to extract meaningful insights.
 
@@ -15,7 +13,7 @@ This project showcases the use of Neo4j for graph-based analysis of an airport n
 ## Workflow
 1. **Schema Design**: Defined nodes and relationships to structure the data logically.
 2. **Data Import**: Loaded data from `.dat` files into the Neo4j graph database.
-3. **Query Development**: Designed workloads to analyze international vs. domestic flights, airline operations, and route connections.
+3. **Query Development**: Designed workloads to analyze international vs. domestic flights, airline operations and route connections.
 4. **Performance Optimization**: Created indexes for faster query execution.
 
 
