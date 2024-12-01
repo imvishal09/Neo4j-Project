@@ -10,6 +10,11 @@ This project showcases the use of Neo4j for graph-based analysis of an airport n
 - **APOC Procedures**: Leveraged for schema management and advanced queries.
 - **Interactive Browser Guide**: A `.neo4j-browser-guide` file for guided exploration of the dataset.
 
+## Schema Visualization
+Below is a visualization of the graph database schema. It highlights the `Airport`, `Airline`, and `Plane` nodes and their relationships.
+
+![Database Visualization](https://github.com/imvishal09/Neo4j-Project/blob/main/db%20visualisation.jpg)
+
 ## Workflow
 1. **Schema Design**: Defined nodes and relationships to structure the data logically.
 2. **Data Import**: Loaded data from `.dat` files into the Neo4j graph database.
@@ -18,5 +23,4 @@ This project showcases the use of Neo4j for graph-based analysis of an airport n
 
 
 ## Disclaimer
-This project is for academic purposes and demonstrates tools and techniques for graph-based data analysis. Data used in this project is a simplified representation and pleae do not use the same content.
-
+This project is for academic purposes and demonstrates tools and techniques for graph-based data analysis. Data used in this project is a simplified representation and not intended for real-world use.
