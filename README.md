@@ -22,9 +22,15 @@ Below is a visualization of the graph database schema. It highlights the `Airpor
 4. **Performance Optimization**: Created indexes for faster query execution.
 
 ## Example 1 of the project:
-This Cypher query retrieves three international flight connections from the Neo4j database, linking departure and arrival airports in different countries with their corresponding airplanes based on IATA equipment codes.
+The Cypher query retrieves three international flight connections from the Neo4j database, linking departure and arrival airports in different countries with their corresponding airplanes based on IATA equipment codes.
 
 ![Example 1:](https://github.com/imvishal09/Neo4j-Project/blob/main/Example%201.jpg)
+
+## Example 2 of the project:
+
+The query identifies the countries where airlines operate by analyzing flight routes. It collects all unique countries from departure and arrival airports for each airline and creates Country nodes to represent them. The query then establishes relationships between the airlines and the countries they serve, for a clear graph visualization of airline operations across various regions.
+
+![Example 2:](https://github.com/imvishal09/Neo4j-Project/blob/main/Example%202.jpg)
 
 ## Disclaimer
 This project is for academic purposes and demonstrates tools and techniques for graph-based data analysis. Data used in this project is a simplified representation and not intended for real-world use.
